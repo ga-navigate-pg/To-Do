@@ -1,23 +1,26 @@
 {
-  "name": "to-do",
-  "version": "0.0.1",
-  "description": "",
-  "main": "todo.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ga-navigate-pg/To-Do.git"
-  },
-  "author": "AJM",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ga-navigate-pg/To-Do/issues"
-  },
-  "homepage": "https://github.com/ga-navigate-pg/To-Do#readme",
-  "dependencies": {
-    "colors": "^1.4.0",
-    "yargs": "^15.4.1"
-  }
+    "name": "to-do",
+    "version": "0.0.1",
+    "description": "",
+    "main": "todo.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ga-navigate-pg/To-Do.git"
+    },
+    "author": "AJM",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ga-navigate-pg/To-Do/issues"
+    },
+    "homepage": "https://github.com/ga-navigate-pg/To-Do#readme",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "yargs": "^15.4.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
 }
