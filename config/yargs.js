@@ -14,6 +14,12 @@ const argv = require('yargs')
         }
     })
     .command('update', 'Update a to-do', {
+        id: {
+            alias: 'i',
+            demandOption: true,
+            desc: 'Id of the to-do'
+
+        },
         description: {
             alias: 'd',
             demandOption: true,

@@ -4,10 +4,6 @@ const file = require('./services/fileManager');
 
 let todolist = [];
 
-let nextId = (id) => {
-    return id + 1;
-}
-
 let list = () => {
     return file.readToDo();
 }
@@ -17,8 +13,8 @@ let create = (description) => {
     //Read the file
     todolist = list();
 
-
     let todoCreate = {
+        id: todolist.length + 1,
         description,
         completed: false
     };
@@ -31,9 +27,19 @@ let create = (description) => {
 
     return todoCreate;
 }
-let update = (description, completed) => {
+let update = (id, description, completed) => {
 
-    file.saveToDo(todo);
+    // //Read the file
+    // todolist = list();
+
+    // todolist[id].description = description;
+
+    // var isTrueSet = (completed == 'true');
+    // todolist[id].completed = isTrueSet;
+
+    // let data = JSON.stringify(todolist);
+
+    // file.saveToDo(data);
 }
 
 module.exports = {
